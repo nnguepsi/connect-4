@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');  
+
+
+  h1, h3 {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(235, 221, 115);
+    border-radius: 50px;
+    color: white;
+    width:200px;
+    margin: auto;
+}
+
+
+.grid {
+    border: 1px solid;
+    height: 120px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: rgb(235, 221, 115);
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .player-one {
+    background-color: #e78787;
+    border-radius: 10px;
+  }
+  
+  .player-two {
+    background-color: #6bb0e8;
+    border-radius: 10px;
+  }
+
+  .reset-button {
+    font-family: 'Poiret One', cursive;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    color: white;
+    background-color:#6bb0e8;
+    border-radius: 40px;
+    border: none;
+  }
